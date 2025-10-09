@@ -27,7 +27,7 @@ This course covers some of the most important aspects of System Programming.
 |Introduction |          |[Presentation](introduction/Introduction.pdf)       |        | |
 |Git          |[Notes](git/Git_poster.pdf), [Book](https://git-scm.com/book/en/v2) |[Presentation](git/Git_presentation.pdf)|[Video1](https://youtu.be/ySKJF3ewfVk?list=PLJ6ZMUSN40FF8pBX4bv1mhVIgoem33Zfv), [Video2](https://youtu.be/J28QIyZkY8c?list=PLJ6ZMUSN40FF8pBX4bv1mhVIgoem33Zfv), [Video2](https://youtu.be/_A8ZcQrdm_Q) |[Task1](https://learngitbranching.js.org/?locale=uk), [Task2](https://github.com/git-school/visualizing-git/) |
 |Bash         |[Article1](./bash/README.md), [Cheatsheet](https://devhints.io/bash?authuser=0), [Samples](https://github.com/ruanyf/simple-bash-scripts) |       |[Video1](https://youtu.be/n4hsOsfxaAQ)  |[Task1](https://labex.io/learn/shell), [Task2](https://linuxsimply.com/wp-content/uploads/2023/12/4.-Simple-calculator-in-Bash.png?authuser=0), [Task3](https://www.hackerrank.com/domains/shell) |
-|Python3      |[Article1](python3/README.md) |       |        | |   
+|Python3      |[Article1](python3/README.md), [Book1](https://pythonguide.rozh2sch.org.ua/?authuser=0) |[Presentation1](https://docs.google.com/presentation/d/1D_L4XS8643KSimAEdJPQQhDdo39RBjk4wJDncyq8AWU/edit?usp=classroom_web&authuser=0), [Presentation2](https://docs.google.com/presentation/d/163wSrb9fCZfw0gTbuby2Fh-NrOKojA7BEk2Vfnre-ok/edit?usp=classroom_web&authuser=0) |[Video1](https://www.youtube.com/watch?v=hWIEVv0w4sA&authuser=0)|[Task1](https://www.hackerrank.com/domains/python), [Task2](https://py-rates.org/?authuser=0), [Task3](https://prometheus.org.ua/course/course-v1:Michigan+PDS101+2023_T3?authuser=0)|   
 |pyQt6        | |       |        | |   
 
 ## Environment
