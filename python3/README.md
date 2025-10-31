@@ -120,24 +120,41 @@ print("Hello"*3)      #реплікація (повторне виведення
 ```
 
 ### Форматований вивід 
+
+#### f-string
+Джерело: [https://fstring.help/](https://fstring.help/)
 ```py
-#f-string
 first_name = "ada"
 last_name = "lovelace"
 print(f"{first_name} {last_name}")
 
-#r-string
-print(r"c:\user\tasks\new")
+one = 1
+two = 2
+print(f"{one} + {two} = {one + two}")
 
-#.format()
+capital = "Kyiv"
+print(f"{capital=}")          #capital=Kyiv
+
+num = 1.23423
+print(f"{num=:.2f}")          #1.23
+
+instrument = "xylophone"
+print(f"{instrument:.5}")     #xylop
+
+num = 123
+print(f"num:b")               #1111011 (b-binary, o-octal, x-hexadecimal, c-unicode)
+```
+
+#### r-string
+```py
+print(r"c:\user\tasks\new")
+```
+
+#### .format()
+```py
 first_name = "ada"
 last_name = "lovelace"
 print("The first programmer was {0} {1}".format(first_name,last_name))
-
-#float format output
-price = 196.3587
-print(“{:.2f}”.format(price))
-print(f"{price:.2f}")
 ```
 
 ---
@@ -159,6 +176,26 @@ max = a if a > b else b
 ```
 
 ---
+
+## Вибір match-case (додано в Python 3.10)
+
+Джерело: [https://codefinity.com/ua/blog/Match-case-Operators-in-Python](https://codefinity.com/ua/blog/Match-case-Operators-in-Python)
+
+```py
+day = 6
+
+match day:
+    case day if day>=1 and day<=5:
+        print("Робочий день")
+    case 6 | 7:
+        print("Вихідний день")
+    case _:
+        print("Неправильно введений день тижня!")
+```
+
+
+---
+
 
 ## ЦИКЛИ 
 
@@ -351,7 +388,7 @@ b = tuple(b)
 ### Описи і виклики функцій з відомою кількістю аргументів
 ```py
 RESULT = 0                        #глобальна змінна
-def sum_num(a,b=0):               #функція з звичайним і параметром по-замовчуванню
+def sum_num(a,b=0):               #функція з звичайним аргументом і зі значенням по-замовчуванню
   '''Опис (docstring)'''
 	return a+b
 
@@ -383,11 +420,11 @@ in_dict(cat = 'кіт', dog = 'собака')
 ```
 
 
-### Анотації до функцій (опис очік.типів)
+### Анотації до функцій (опис очік.типів аргументів та функції)
 ```py
 def some_func(a:int, b:str) -> float:
      print(a,b)
-     return (3.5)
+     return 3.5
 ```
 
 
