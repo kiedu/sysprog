@@ -22,13 +22,13 @@ This course covers some of the most important aspects of System Programming.
 
 ## Tasks
 
-| Unit        | Readings | Slides| Video  | Tasks                |
-|-------------|----------|-------|--------|----------------------|
-|Introduction |          |[Presentation](introduction/Introduction.pdf)       |        | |
-|Git          |[Notes](git/Git_poster.pdf), [Book](https://git-scm.com/book/en/v2) |[Presentation](git/Git_presentation.pdf)|[Video1](https://youtu.be/ySKJF3ewfVk?list=PLJ6ZMUSN40FF8pBX4bv1mhVIgoem33Zfv), [Video2](https://youtu.be/J28QIyZkY8c?list=PLJ6ZMUSN40FF8pBX4bv1mhVIgoem33Zfv), [Video2](https://youtu.be/_A8ZcQrdm_Q) |[Task1](https://learngitbranching.js.org/?locale=uk), [Task2](https://github.com/git-school/visualizing-git/) |
-|Bash         |[Article1](./bash/README.md), [Cheatsheet](https://devhints.io/bash?authuser=0), [Samples](https://github.com/ruanyf/simple-bash-scripts) |       |[Video1](https://youtu.be/n4hsOsfxaAQ)  |[Task1](https://labex.io/learn/shell), [Task2](https://linuxsimply.com/wp-content/uploads/2023/12/4.-Simple-calculator-in-Bash.png?authuser=0), [Task3](https://www.hackerrank.com/domains/shell) |
-|Python3      |[Article1](python3/README.md), [Book1](https://pythonguide.rozh2sch.org.ua/?authuser=0) |[Presentation1](https://docs.google.com/presentation/d/1D_L4XS8643KSimAEdJPQQhDdo39RBjk4wJDncyq8AWU/edit?usp=classroom_web&authuser=0), [Presentation2](https://docs.google.com/presentation/d/163wSrb9fCZfw0gTbuby2Fh-NrOKojA7BEk2Vfnre-ok/edit?usp=classroom_web&authuser=0) |[Video1](https://www.youtube.com/watch?v=hWIEVv0w4sA&authuser=0)|[Task1](https://www.hackerrank.com/domains/python), [Task2](https://py-rates.org/?authuser=0), [Task3](https://prometheus.org.ua/course/course-v1:Michigan+PDS101+2023_T3?authuser=0)|   
-|pyQt6        | |       |        | |   
+| Unit        | Readings | Slides | Watch | Exercises | Checking | Src |
+|-------------|----------|--------|-------|-------|-------|-----|
+|Introduction | [Books & Manuals](00intro/books_and_manuals.md) | [Presentations](00intro/presentations/) | [Videos](00intro/videos.md) | [Tasks](00intro/tasks.md) | [Tests](00intro/tests.md) | [Code](00intro/src/) |
+|Git          | [Books & Manuals](01git/books_and_manuals.md) | [Presentations](01git/presentations/) | [Videos](01git/videos.md) | [Tasks](01git/tasks.md) | [Tests](01git/tests.md) | [Code](01git/src/) |
+|Bash         | [Books & Manuals](02bash/books_and_manuals.md) | [Presentations](02bash/presentations/) | [Videos](02bash/videos.md) | [Tasks](02bash/tasks.md) | [Tests](02bash/tests.md) | [Code](02bash/src/) |
+|Python3      | [Books & Manuals](03python/books_and_manuals.md) | [Presentations](03python/presentations/) | [Videos](03python/videos.md) | [Tasks](03python/tasks.md) | [Tests](03python/tests.md) | [Code](03python/src/) |
+|pyQt6        | [Books & Manuals](04pyqt/books_and_manuals.md) | [Presentations](04pyqt/presentations/) | [Videos](04pyqt/videos.md) | [Tasks](04pyqt/tasks.md) | [Tests](04pyqt/tests.md) | [Code](04pyqt/src/) |
 
 ## Environment
 All executables must run on Linux, x86_64. Therefore, we strongly recommend having a local Linux x86_64 environment for development. 
