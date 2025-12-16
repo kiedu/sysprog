@@ -1,5 +1,7 @@
 # Система контролю версій Git
 
 ## Література:
-* Опорний конспект: https://drive.google.com/file/d/1XS1Svh66HB53rmF3pL4jo0-EyrTNzl5_/view?usp=sharing
+* [Опорний конспект](readings/Git_poster.pdf)
+* [Pro Git book](https://git-scm.com/book/en/v2)
+
 

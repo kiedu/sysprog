@@ -3,6 +3,7 @@
 ## Практичні завдання
 
 ### ПР00. Visualizing Git
+* https://learngitbranching.js.org/?locale=uk
 * https://github.com/git-school/visualizing-git/
 
 
