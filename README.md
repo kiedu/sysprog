@@ -28,7 +28,7 @@ This course covers some of the most important aspects of System Programming.
 |Git          | [Books & Manuals](01git/books_and_manuals.md) | [Presentations](01git/presentations/) | [Videos](01git/videos.md) | [Tasks](01git/tasks.md) | [Tests](01git/tests.md) | [Code](01git/src/) |
 |Bash         | [Books & Manuals](02bash/books_and_manuals.md) | [Presentations](02bash/presentations/) | [Videos](02bash/videos.md) | [Tasks](02bash/tasks.md) | [Tests](02bash/tests.md) | [Code](02bash/src/) |
 |Python3      | [Books & Manuals](03python/books_and_manuals.md) | [Presentations](03python/presentations/) | [Videos](03python/videos.md) | [Tasks](03python/tasks.md) | [Tests](03python/tests.md) | [Code](03python/src/) |
-|pyQt6        | [Books & Manuals](04pyqt/books_and_manuals.md) | [Presentations](04pyqt/presentations/) | [Videos](04pyqt/videos.md) | [Tasks](04pyqt/tasks.md) | [Tests](04pyqt/tests.md) | [Code](04pyqt/src/) |
+|pyQt6        | [Books & Manuals](04pyQt/books_and_manuals.md) | [Presentations](04pyQt/presentations/) | [Videos](04pyQt/videos.md) | [Tasks](04pyQt/tasks.md) | [Tests](04pyQt/tests.md) | [Code](04pyQt/src/) |
 
 ## Environment
 All executables must run on Linux, x86_64. Therefore, we strongly recommend having a local Linux x86_64 environment for development. 
